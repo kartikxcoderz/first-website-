@@ -1,0 +1,7 @@
+GAME ASSETS SETUP
+
+Place your custom bird PNG here as bird.png.
+Place your jump sound here as jump.mp3.
+Place your death sound here as death.mp3.
+Change the paths in games/flappy.js if you use different filenames.
+No upload control is shown to players.

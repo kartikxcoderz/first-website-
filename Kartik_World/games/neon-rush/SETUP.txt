@@ -1,0 +1,7 @@
+NEON-RUSH
+
+2D portrait-friendly neon highway racer.
+
+Open the main website using Live Server, then Dashboard > Games > Neon Rush.
+PC controls and mobile touch controls are listed on the game page.
+Scores are saved locally in this browser.

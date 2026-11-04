@@ -1,0 +1,7 @@
+DASHBOARD SETUP
+
+Open dashboard.html with VS Code Live Server.
+The Games tile opens ../games/index.html.
+Other unfinished tiles show a Coming Soon popup.
+The Chat Room folder and navigation destination have been removed.
+The popup message is: Hard work turns ideas real.

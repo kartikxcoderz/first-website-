@@ -1,0 +1,44 @@
+KARTIK ARCADE — SETUP GUIDE
+
+START THE WEBSITE
+1. Extract the ZIP file.
+2. Open the Kartik_World folder in VS Code.
+3. Open home/index.html with Live Server.
+4. Choose Dashboard, then Games.
+
+ARCADE MENU
+- The Games page is designed vertically for phones and easy reading.
+- Use the floating GAMES button in the lower-right corner to switch between installed games.
+- The switcher closes when you tap outside it or follow a navigation tab.
+- The theme button in the header toggles DARK MODE ON/OFF.
+
+FOUR FEATURED GAME TILES
+- Flappy ACP: opens the existing Flappy Bird game.
+- Mario CID: coming soon tile.
+- Granny: coming soon tile.
+- Fighter Pad: opens the existing 3D Fighting Arena.
+
+EXISTING GAMES ARE PRESERVED
+- Neon Rush remains available from the floating GAMES switcher.
+- Snake X remains available from the floating GAMES switcher.
+- Fighting Arena remains the only 3D game.
+- Flappy remains playable under its new arcade name, Flappy ACP.
+
+CONTROLS
+- PC: use the keyboard guide on the Games page and each game's own controls.
+- Mobile: use each game's on-screen touch controls.
+- Device detection uses browser capabilities; no IP address is collected.
+
+SECRET CODE CONSOLE
+Type one of these into the small console at the bottom-left:
+- MATRIX
+- GLITCH
+- BOOM
+- KARTIK
+These trigger harmless visual effects and a short optional sound after the visitor submits a code. Sound is capped inside the browser. The prank does not freeze, hang, lock, or change the visitor's device, and cannot force the phone volume above its normal limit.
+
+LEADERBOARD
+Scores are stored locally in the visitor's browser. A shared online leaderboard requires a database/backend.
+
+NOTE
+The Games page uses Google Fonts from the internet. The 3D Fighting Arena also loads Three.js from its configured CDN.

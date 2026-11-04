@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#07110b">
+  <title>Welcome to My World | Kartik</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <canvas id="ambientCanvas" aria-hidden="true"></canvas>
+  <header class="topbar">
+    <a class="wordmark" href="index.html"><span class="brand-dot"></span> KARTIK<span class="muted">.WORLD</span></a>
+    <div class="top-actions">
+      <span class="live-label"><span class="live-dot"></span> LIVE</span>
+      <button class="icon-button" id="settingsButton" aria-label="Open settings" aria-expanded="false" title="Settings">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Z"/><path d="m19.4 15 .1.1a1.8 1.8 0 0 1-2.5 2.5l-.1-.1a1.8 1.8 0 0 0-3 .9v.2a1.8 1.8 0 0 1-3.6 0v-.2a1.8 1.8 0 0 0-3-.9l-.1.1a1.8 1.8 0 0 1-2.5-2.5l.1-.1a1.8 1.8 0 0 0-.9-3h-.2a1.8 1.8 0 0 1 0-3.6h.2a1.8 1.8 0 0 0 .9-3l-.1-.1a1.8 1.8 0 0 1 2.5-2.5l.1.1a1.8 1.8 0 0 0 3-.9v-.2a1.8 1.8 0 0 1 3.6 0v.2a1.8 1.8 0 0 0 3 .9l.1-.1a1.8 1.8 0 0 1 2.5 2.5l-.1.1a1.8 1.8 0 0 0 .9 3h.2a1.8 1.8 0 0 1 0 3.6h-.2a1.8 1.8 0 0 0-.9 3Z"/></svg>
+      </button>
+    </div>
+    <aside class="settings-popover" id="settingsPanel" hidden>
+      <div class="settings-heading"><strong>Quick settings</strong><span>PERSONALIZE</span></div>
+      <label class="setting-row"><span><b>Appearance</b><small>Switch light and dark mode</small></span><button class="switch" id="themeToggle" role="switch" aria-checked="false"><span></span></button></label>
+      <label class="setting-row"><span><b>Interface SFX</b><small>Soft sounds on interactions</small></span><button class="switch" id="sfxToggle" role="switch" aria-checked="false"><span></span></button></label>
+      <p class="settings-note">Your preferences are saved on this device.</p>
+    </aside>
+  </header>
+
+  <main class="welcome-wrap">
+    <section class="welcome-card">
+      <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+      <div class="status-pill"><span class="live-dot"></span> A LITTLE SPACE ON THE INTERNET</div>
+      <p class="eyebrow">HELLO, I'M KARTIK</p>
+      <h1>Welcome to<br><span>my world.</span></h1>
+      <p class="intro">A personal corner for my interests, projects, ideas and everything I'm building.</p>
+      <a class="primary-link" href="../dashboard/dashboard.html">EXPLORE MY WORLD <span aria-hidden="true">↗</span></a>
+      <div class="bottom-meta"><span>CURIOUS MIND. CREATIVE ENERGY.</span><span>EST. 2026</span></div>
+    </section>
+    <p class="footer-line">MADE WITH <span>♥</span> BY KARTIK</p>
+  </main>
+</body>
+</html>

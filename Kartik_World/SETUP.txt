@@ -1,0 +1,18 @@
+KARTIK.WORLD — PROJECT SETUP
+
+1. Extract this ZIP.
+2. Open the Kartik_World folder in VS Code.
+3. Install/use the Live Server extension.
+4. Right-click home/index.html and choose Open with Live Server.
+5. From Home, open Dashboard, then Games.
+
+GAMES
+- Flappy ACP: playable Flappy game.
+- Mario CID: coming soon.
+- Granny: coming soon.
+- Fighter Pad: 3D Fighting Arena.
+- Neon Rush and Snake X are preserved and accessible from the floating game switcher.
+
+The Games menu is portrait-first and includes a dark-mode toggle, PC/mobile manual, local leaderboard, and harmless secret-code easter eggs. See games/SETUP.txt for details.
+
+No visitor IP address is collected. Device controls are selected using browser/device capabilities.

@@ -1,0 +1,5 @@
+HOME PAGE SETUP
+
+Open index.html with VS Code Live Server.
+This folder contains the welcome page HTML, CSS and JavaScript.
+The original home page appearance and behavior are preserved.

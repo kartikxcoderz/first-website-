@@ -1,0 +1,26 @@
+FIGHTING ARENA — GRAPHICS UPDATE
+
+This is the 3D fighting game for Kartik World.
+
+Visual upgrades:
+- Detailed 3D fighters with armor, helmets, gloves and boots
+- Animated idle stance and walking/running movement
+- Punch and special-strike animations
+- Glowing arena floor, neon ring, pillars and lighting
+- Hit sparks, impact particles, shockwave and camera shake
+- Enemy hit reactions and wave progression
+
+Controls:
+PC:
+- W A S D or Arrow Keys: Move
+- SPACE: Punch
+- SHIFT: Special strike
+- R: Restart
+
+Mobile:
+- Use the on-screen directional pad
+- PUNCH: Normal attack
+- SPECIAL: Strong area strike
+
+Run the main website with VS Code Live Server and open Games > Fighting Arena.
+Three.js is loaded from jsDelivr CDN, so an internet connection is required.

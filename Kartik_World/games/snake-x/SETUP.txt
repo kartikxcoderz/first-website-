@@ -1,0 +1,7 @@
+SNAKE-X
+
+2D portrait-friendly snake arcade game.
+
+Open the main website using Live Server, then Dashboard > Games > Snake X.
+PC controls and mobile touch controls are listed on the game page.
+Scores are saved locally in this browser.

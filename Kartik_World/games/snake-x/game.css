@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=DM+Sans:wght@400;600;700&display=swap');*{box-sizing:border-box}body{margin:0;background:#0c100e;color:#f2f4e9;font-family:'DM Sans',sans-serif}header{height:64px;padding:0 5%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #303a2a;background:#121811}header a{color:#c6f36b;text-decoration:none;font-size:11px;letter-spacing:1px}header b{font:800 25px 'Barlow Condensed',sans-serif;letter-spacing:1px}header i{font-style:normal;color:#c6f36b}header span{font-size:10px;color:#9ca995;letter-spacing:1px}main{max-width:1050px;margin:auto;padding:22px 18px 50px}.hud{display:flex;gap:20px;align-items:center;padding:12px 15px;background:#171f17;border:1px solid #303a2a;font-size:11px;letter-spacing:1px}.hud span{color:#a8b29e}.hud b{color:#c6f36b;margin-left:5px}.hud button,.overlay button,.touch-controls button{border:1px solid #6b8348;background:#c6f36b;color:#11170d;font-weight:800;padding:10px 15px;cursor:pointer;letter-spacing:1px}.hud button{margin-left:auto}.stage{height:min(64vh,570px);min-height:350px;position:relative;margin-top:12px;border:1px solid #303a2a;background:#080d0d;overflow:hidden}.stage #game{width:100%;height:100%}.stage canvas{display:block;width:100%;height:100%}.overlay{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:25px;background:#07100cbb;backdrop-filter:blur(4px)}.overlay h1{font:900 clamp(35px,7vw,65px)/.9 'Barlow Condensed',sans-serif;margin:0 0 12px}.overlay p{color:#bdc7b5;font-size:13px;max-width:420px;line-height:1.6}.overlay button{margin-top:12px;padding:14px 24px}.touch-controls{display:none;justify-content:space-between;align-items:center;gap:15px;padding:16px 0}.pad,.actions{display:flex;gap:8px;align-items:center}.pad{flex-direction:column}.pad>div{display:flex;gap:8px}.touch-controls button{min-width:52px;min-height:45px;border-radius:5px;padding:10px;font-size:11px;touch-action:none;user-select:none}.actions button{min-width:90px}.manual{border-top:1px solid #303a2a;padding-top:20px}.manual h2{font:800 28px 'Barlow Condensed',sans-serif;color:#c6f36b;margin:0 0 10px}.manual p{font-size:12px;line-height:1.8;color:#a8b29e}kbd{background:#252f22;border:1px solid #46543d;border-radius:3px;padding:3px 6px;color:#fff}@media(max-width:600px){header{padding:0 12px}header b{font-size:20px}header span{font-size:8px}.hud{gap:8px;font-size:9px;padding:10px 7px}.hud button{padding:8px;font-size:9px}.stage{height:55vh;min-height:330px}.touch-controls{gap:5px}.touch-controls button{min-width:43px;padding:8px;font-size:9px}.actions button{min-width:70px}}
+
+body.touch-device .touch-controls{display:flex}
+
+/* Portrait-first layout: one clear column and large touch targets. */
+main { width: min(100% - 24px, 620px); padding-bottom: 36px; }
+header { min-height: 64px; height: auto; padding: 12px 16px; flex-wrap: wrap; gap: 8px; }
+.hud { display: flex; flex-wrap: wrap; gap: 10px 14px; line-height: 1.6; }
+.hud button { margin-left: 0; }
+.stage { width: 100%; height: min(68vh, 680px); min-height: 440px; aspect-ratio: 9 / 14; }
+.stage #game { width: 100%; height: 100%; }
+.touch-controls { display: flex; flex-direction: column; align-items: stretch; gap: 12px; padding: 16px 0; }
+.pad, .actions { display: flex; justify-content: center; gap: 9px; }
+.pad { flex-direction: column; }
+.pad > div { display: flex; justify-content: center; gap: 9px; }
+.touch-controls button { min-width: 62px; min-height: 54px; border-radius: 9px; font-size: 12px; touch-action: none; }
+.actions { flex-wrap: wrap; }
+.actions button { min-width: 110px; min-height: 54px; flex: 1; }
+.manual { margin-top: 8px; padding: 18px; background: #141b14; border: 1px solid #303a2a; }
+.manual p { line-height: 1.9; }
+@media (max-width: 600px) {
+  main { width: min(100% - 20px, 500px); padding: 14px 0 30px; }
+  header { padding: 12px; }
+  header b { font-size: 20px; }
+  header span { font-size: 9px; }
+  .hud { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 10px; }
+  .hud button { grid-column: 1 / -1; width: 100%; min-height: 42px; }
+  .stage { height: 62vh; min-height: 430px; max-height: 650px; }
+  .touch-controls { display: flex; }
+  .touch-controls button { min-height: 56px; font-size: 11px; }
+  .manual { padding: 15px; }
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07110b"><title>Flappy Bird | Kartik Arcade</title>
+<link rel="stylesheet" href="games.css"><link rel="stylesheet" href="flappy.css">
+<script src="flappy.js" defer></script>
+</head>
+<body class="play-page">
+<header class="topbar"><a class="brand" href="index.html"><i></i>KARTIK<span>.WORLD</span></a><nav><a href="index.html">Arcade</a><a href="../dashboard/dashboard.html">Dashboard</a></nav><div class="status"><b></b> GAME 001</div></header>
+<main class="play-wrap">
+  <div class="play-heading"><div><p class="eyebrow">ARCADE / SKILL / 001</p><h1>FLAPPY <span>BIRD.</span></h1><p>One tap. One more try. Beat your best.</p></div><a class="back" href="index.html">← ALL GAMES</a></div>
+  <section class="game-layout">
+    <div class="game-shell">
+      <div class="game-top"><span><i></i> LIVE RUN</span><div><small>BEST</small><strong id="bestScore">0</strong></div><div><small>SCORE</small><strong id="score">0</strong></div></div>
+      <div class="canvas-wrap"><canvas id="gameCanvas" width="480" height="640" aria-label="Flappy Bird game. Press Space or tap to fly."></canvas>
+        <div class="overlay" id="overlay"><div class="overlay-card"><span class="mini-label" id="overlayLabel">READY WHEN YOU ARE</span><h2 id="overlayTitle">READY<br>TO FLY?</h2><p id="overlayText">Press SPACE or tap the game to flap through the pipes.</p><button id="startButton">START GAME <b>↗</b></button><small>SPACE / ↑ / CLICK / TAP</small></div></div>
+      </div>
+      <div class="game-bottom"><span>SPACE / ↑ / CLICK TO FLAP</span><span>PERSONAL BEST SAVED ON THIS DEVICE</span></div>
+    </div>
+    <aside class="side-panel">
+      <div class="panel asset-panel"><p class="eyebrow">YOUR CUSTOM ASSETS</p><div class="tip"><b>PNG</b><span>Replace the bird image through one path in flappy.js.</span></div><div class="tip"><b>SFX</b><span>Set your jump and death sound file paths in flappy.js.</span></div><p class="asset-note">Exact file locations and editing instructions are in games/SETUP.txt.</p></div>
+      <div class="panel tips"><p class="eyebrow">HOW TO PLAY</p><div class="tip"><b>01</b><span>Tap or press Space to flap upward.</span></div><div class="tip"><b>02</b><span>Pass through the gaps between pipes.</span></div><div class="tip"><b>03</b><span>Each pipe pair gives you one point.</span></div></div>
+    </aside>
+  </section>
+  <footer><a href="../dashboard/dashboard.html">← BACK TO DASHBOARD</a><span>KARTIK.WORLD <b>●</b></span></footer>
+</main>
+</body></html>

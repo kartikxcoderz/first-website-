@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1020">
+  <title>Kartik Arcade | Games</title>
+  <link rel="stylesheet" href="games.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="../home/index.html" aria-label="Kartik World home"><span class="brand-mark">K</span><span>KARTIK<span class="brand-accent"> ARCADE</span></span></a>
+    <nav aria-label="Main navigation">
+      <a href="../dashboard/dashboard.html">Dashboard</a>
+      <a href="#games">Games</a>
+      <a href="#controls">Manual</a>
+      <a href="#leaderboard">Leaderboard</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-pressed="false"><span id="themeIcon">☾</span> <span id="themeText">DARK MODE: ON</span></button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <p class="eyebrow">KARTIK.WORLD PRESENTS</p>
+      <h1>ENTER THE<br><span>ARCADE.</span></h1>
+      <p class="hero-copy">Four worlds. New challenges. Your next high score starts here.</p>
+      <div class="hero-meta"><span class="status-dot"></span><span id="deviceNote">Checking your controls…</span></div>
+      <a class="primary-link" href="#games">EXPLORE GAMES <span>↓</span></a>
+    </section>
+
+    <section id="games" class="section">
+      <div class="section-head"><div><p class="eyebrow">PICK YOUR NEXT CHALLENGE</p><h2>GAME SELECT</h2></div><span class="count-pill">04 WORLDS</span></div>
+      <div class="game-list">
+        <a class="game-card flappy" href="flappy.html">
+          <div class="card-art"><span class="art-index">01 / ARCADE</span><div class="game-symbol bird-symbol">✦</div><span class="art-chip playable-chip">PLAY NOW</span></div>
+          <div class="card-info"><div><h3>Flappy ACP</h3><p>Tap, fly, dodge and beat your record.</p></div><span class="card-arrow">↗</span></div>
+        </a>
+        <a class="game-card neon" href="neon-rush/index.html">
+          <div class="card-art"><span class="art-index">02 / SPEED</span><div class="game-symbol neon-symbol">⚡</div><span class="art-chip playable-chip">PLAY NOW</span></div>
+          <div class="card-info"><div><h3>Neon Rush</h3><p>Race through the neon world and chase your best score.</p></div><span class="card-arrow">↗</span></div>
+        </a>
+        <a class="game-card snake" href="snake-x/index.html">
+          <div class="card-art"><span class="art-index">03 / CLASSIC</span><div class="game-symbol snake-symbol">〰</div><span class="art-chip playable-chip">PLAY NOW</span></div>
+          <div class="card-info"><div><h3>Snake X</h3><p>Collect, grow and avoid crashing into yourself.</p></div><span class="card-arrow">↗</span></div>
+        </a>
+        <a class="game-card fighter" href="fighting-arena/index.html">
+          <div class="card-art"><span class="art-index">04 / 3D COMBAT</span><div class="game-symbol fighter-symbol">⚔</div><span class="art-chip playable-chip">PLAY NOW</span></div>
+          <div class="card-info"><div><h3>Fighter Pad</h3><p>3D arena combat · attacks · survival.</p></div><span class="card-arrow">↗</span></div>
+        </a>
+      </div>
+      <p class="section-footnote">These are your regular games. Enter the secret code <strong>dark</strong> to reveal the separate Dark Games menu.</p>
+    </section>
+
+    <section id="darkGames" class="section dark-games-section" hidden>
+      <div class="section-head"><div><p class="eyebrow">ACCESS GRANTED · HIDDEN ARCADE</p><h2>DARK GAMES</h2></div><span class="count-pill dark-count">02 WORLDS</span></div>
+      <p class="dark-intro">You found the hidden side of Kartik Arcade. These new worlds are being prepared.</p>
+      <div class="game-list">
+        <article class="game-card mario dark-card" aria-label="Mario CID coming soon">
+          <div class="card-art"><span class="art-index">01 / SHADOW ADVENTURE</span><div class="game-symbol mario-symbol">★</div><span class="art-chip soon-chip">COMING SOON</span></div>
+          <div class="card-info"><div><h3>Mario CID</h3><p>A mysterious platform adventure is on its way.</p></div><span class="card-arrow muted-arrow">⌛</span></div>
+        </article>
+        <article class="game-card granny dark-card" aria-label="Granny coming soon">
+          <div class="card-art"><span class="art-index">02 / NIGHTMARE</span><div class="game-symbol granny-symbol">☠</div><span class="art-chip soon-chip">COMING SOON</span></div>
+          <div class="card-info"><div><h3>Granny</h3><p>Stay quiet. Find a way out. Coming soon.</p></div><span class="card-arrow muted-arrow">⌛</span></div>
+        </article>
+      </div>
+      <button class="dark-back-button" id="hideDarkGames" type="button">← BACK TO REGULAR GAMES</button>
+    </section>
+
+    <section id="controls" class="section">
+      <div class="section-head"><div><p class="eyebrow">KNOW YOUR MOVES</p><h2>CONTROLS MANUAL</h2></div></div>
+      <div class="manual-list">
+        <article class="manual-card"><span class="manual-icon">⌨</span><div><h3>PC / LAPTOP</h3><p><kbd>W A S D</kbd> or <kbd>← ↑ ↓ →</kbd> move where supported.</p><p><kbd>SPACE</kbd> action / jump · <kbd>SHIFT</kbd> special attack in Fighter Pad · <kbd>R</kbd> restart where supported.</p></div></article>
+        <article class="manual-card"><span class="manual-icon">☝</span><div><h3>MOBILE / TABLET</h3><p>Use the large touch buttons shown inside each game. Hold movement buttons and tap action buttons.</p><p>Arcade pages are arranged vertically for comfortable portrait play.</p></div></article>
+      </div>
+    </section>
+
+    <section id="leaderboard" class="section">
+      <div class="section-head"><div><p class="eyebrow">BEAT YOUR PERSONAL BEST</p><h2>LEADERBOARD</h2></div><span class="count-pill">THIS DEVICE</span></div>
+      <div class="leaderboard" id="leaderboardList"><p class="empty">Play a game to put your score on the board.</p></div>
+      <p class="section-footnote">Scores are saved in this browser on this device. A global leaderboard needs an online database.</p>
+    </section>
+  </main>
+
+  <footer><span class="footer-brand">KARTIK ARCADE</span><span>PLAY SMART. PLAY HARD.</span><span>© KARTIK.WORLD</span></footer>
+
+  <button class="corner-game-button" id="gameMenuButton" type="button" aria-expanded="false" aria-controls="gameMenu" title="Change game">▦<span>GAMES</span></button>
+  <aside class="corner-game-menu" id="gameMenu" hidden>
+    <div class="corner-panel-head"><strong>SWITCH GAME</strong><button id="closeGameMenu" type="button" aria-label="Close game menu">×</button></div>
+    <a href="flappy.html">✦ Flappy ACP <small>PLAY</small></a>
+    <a href="neon-rush/index.html">⚡ Neon Rush <small>PLAY</small></a>
+    <a href="snake-x/index.html">〰 Snake X <small>PLAY</small></a>
+    <a href="fighting-arena/index.html">⚔ Fighter Pad <small>PLAY</small></a>
+    <p>Mario CID and Granny are coming soon.</p>
+  </aside>
+
+  <section class="cheat-widget" aria-label="Secret code console">
+    <div class="cheat-heading"><span class="console-dot"></span><strong>SECRET CODE</strong><span class="cheat-hint">EASTER EGGS</span></div>
+    <form id="cheatForm">
+      <label class="sr-only" for="cheatInput">Enter a secret code</label>
+      <input id="cheatInput" type="text" maxlength="20" autocomplete="off" placeholder="Type a secret code…">
+      <button type="submit">ENTER</button>
+    </form>
+    <p id="cheatMessage" aria-live="polite">Try: matrix · glitch · boom · dark</p>
+  </section>
+
+  <div class="prank-overlay" id="prankOverlay" hidden aria-live="assertive"><div class="prank-box"><span class="prank-mark">!</span><h2 id="prankTitle">SYSTEM GLITCH</h2><p id="prankText">Just a harmless arcade effect.</p><button id="closePrank" type="button">OK, YOU GOT ME</button></div></div>
+  <script src="games.js"></script>
+</body>
+</html>
